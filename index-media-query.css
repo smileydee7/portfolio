@@ -1,0 +1,60 @@
+@media (max-width: 850px) {
+    /* SECTION 1:HERO */
+    .hero-section .text h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 740px) {
+    /* SECTION 1:HERO */
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+    .hero-section .head-shot img {
+        width: 150px;
+    }
+    /* SECTION 4: CONTACT */
+    .contact-section .group {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    /* NAVBAR */
+    nav {
+        padding: 0 20px;
+    }
+    nav .right a {
+        font-size: 22px;
+    }
+    nav .right a:last-child {
+        color: #1a1c20;
+        background-color: #eeeff1;
+        padding: 0;
+    }
+    nav .right a span {
+        display: none;
+    }
+    /* SECTION 1: HERO */
+    .hero-section {
+        padding: 0 20px;
+    }
+    .hero-section .text h2 {
+        font-size: 30px;
+    }
+    /* SECTION 2: SKILLS */
+    .skills-section {
+        padding: 0 20px;
+    }
+    .skills-section .cells .cell span {
+        font-size: 16px;
+    }
+    /* SECTION 3: CV */
+    .cv-section {
+        padding: 0 20px;
+    }
+    /* SECTION 4: CONTACT */
+    .contact-section {
+        padding: 0 20px;
+    }
+}
